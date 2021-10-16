@@ -21,13 +21,13 @@
     e. 4 -- converts true to 1 and adds to 3
     f. 0 -- converts false to 0 and null to 0, then adds
     g. 3undefined -- converts undefined to string and adds to '3'
-    h. NaN -- converts 3 & undefined to numbers and subtracts; undefined in the arithmetic equation leads to the result of NaN
-14. a. true -- 
-    b. false --
-    c. true -- 
-    d. false --
-    e. false --
-    f. true --
+    h. NaN -- converts 3 & undefined to numbers and subtracts; undefined in the arithmetic equation leads to the result of String undefined - NaN
+14. a. true -- converts '2' to 2
+    b. false -- strings are compared by char and '2' is not less than '1'
+    c. true -- converts '2' to 2 (number)
+    d. false -- === is a type equality, but not the same type
+    e. false -- true is 1, so false
+    f. true -- Boolean(2) is true making === hold true
 15. The == checks for the equality using type conversion, while === checks for equality without using type conversion.
-16. The resulting array would be [2,4,6] due to each value in the array having to call the function doSomething, which alters each value before pushing it onto the array. The array with the altered values would then be returned.
-17. The result will be 1 4 3 2. This could be found by 
+17. The resulting array would be [2,4,6] due to each value in the array having to call the function doSomething, which alters each value before pushing it onto the array. The array with the altered values would then be returned.
+19. 1 4 3 2

@@ -5,7 +5,7 @@ function discountPrices(prices, discount) {
 
     for(var i = 0; i < prices.length; i++) {
         var discountedPrice = prices[i] * (1 - discount);
-        finalPrice = Math.round(discountPrice * 100) / 100;
+        finalPrice = Math.round(discountedPrice * 100) / 100;
         discounted.push(finalPrice);
     }
 
